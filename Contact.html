@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Robert Johnson Contact Information</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <ul>
+      <li>Email Address:  RJ@BoldNetworking.com</li>
+      <li>Mobile Phone:  918-928-7158</li>
+      <li>Website:  <a href="https://www.boldnetworking.com">https://www.boldnetworking.com</a></li>
+      <li>LinkedIn:  <a href="https://www.linkedin.com/in/robertjohnsonbold/">robertjohnsonbold</a></li>
+    </ul>
+    <hr>
+    <form action="mailto:robert.johnson@boldnetworking.com" method="post" enctype="text/plain">
+      <label for="yourName">Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Email Address:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Comments About Icecream</label><br>
+      <textarea name="Thoughts on icecream" rows="10" cols="80"></textarea><br>
+      <input type="checkbox" name="icecream" value="Loves" checked>
+      <label for="icecream">Do you love icecream?</label><br>
+      <label for="preference">How much do you like icecream (0 to 100)?</label><br>
+        <p>0%-Not At All </p>
+      <input type="range" name="preference" value="80" list="tickmarks" step="10">
+      <datalist id="tickmarks">
+        <option value="0" label="0%"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50" label="So-So"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100" label="100%"></option>
+      </datalist>
+        <p> 100%-Best Food Ever</p><br>
+      <input type="submit">
+    </form>
+    </table>
+  </body>
+</html>
